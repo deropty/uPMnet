@@ -5,8 +5,7 @@ PATH_ROOT=/home/zangxh/Person-ReID/uPMnet/
 ################################################################################################
 PART=eight_part
 N_PART=8
-MAX_STEPS=60
-SAMPLES=200
+MAX_STEPS=15000
 ###############################################################################################
 for MODLE_NAME in 'mobilenet_v1' 'resnet_v1_50'
 do
@@ -33,8 +32,7 @@ do
 
         echo "================= using ${MODLE_NAME} with ${RELATION} module ======================"
         i=0
-        for NUM_SAMPLES in 21806 21625
-        # 20708 21095 21038 21612 20850 21700 21722 21607 
+        for NUM_SAMPLES in 21806 21625 20708 21095 21038 21612 20850 21700 21722 21607 
         do
             let i++
             echo "${i}"
@@ -75,8 +73,7 @@ do
         done
         
         i=0
-        for NUM_SAMPLES in 20653 20834
-        # 21751 21364 21421 20847 21609 20759 20737 20852 
+        for NUM_SAMPLES in 20653 20834 21751 21364 21421 20847 21609 20759 20737 20852 
         do
             let i++
             echo "${i}"
@@ -104,7 +101,7 @@ do
                 --dataset_dir=${DATA_DIR} \
                 --feature_dir=${OUT_DIR} \
                 --num_classes=300 \
-                --num_samples=${SAMPLES} \
+                --num_samples=${NUM_SAMPLES} \
                 --n_part=${N_PART} \
                 --relation=${RELATION}
         done

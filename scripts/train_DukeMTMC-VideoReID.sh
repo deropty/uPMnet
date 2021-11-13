@@ -5,8 +5,7 @@ PATH_ROOT=/home/zangxh/Person-ReID/uPMnet/
 ################################################################################################
 PART=eight_part
 N_PART=8
-MAX_STEPS=60
-SAMPLES=200
+MAX_STEPS=25000
 ###############################################################################################
 for MODLE_NAME in 'mobilenet_v1' 'resnet_v1_50'
 do
@@ -94,8 +93,8 @@ do
           --dataset_dir=${DATA_DIR} \
           --feature_dir=${OUT_DIR} \
           --num_classes=${NUM_CLASS} \
-          --num_samples=${SAMPLES} \
-          --num_matfiles=2 \
+          --num_samples=${NUM_SAMPLES} \
+          --num_matfiles=16 \
           --n_part=${N_PART} \
           --relation=${RELATION}
     done
