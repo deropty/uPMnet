@@ -42,7 +42,7 @@ $ pip install scipy matplotlib
 $ bash datasets/convert_data_to_tfrecords.py
 ```
 
-### Download models
+### Download pre-trained models
 The Mobilenet and Resnet models can be downloaded in this [link](https://pan.baidu.com/s/1jzjdWkS20aaWpAhAmXkFXQ) (code: 1upx) and should be put in the `checkpoints` directory.
 
 ## Training and Extracting features
