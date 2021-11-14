@@ -1,4 +1,9 @@
 # Exploiting Robust Unsupervised Video Person Re-identification
+![LICENSE](https://img.shields.io/badge/license-GPL%202.0-green)
+![Python](https://img.shields.io/badge/python-2.7-blue.svg)
+![tensorflow](https://img.shields.io/badge/tensorflow-1.4.0-%237732a8)
+
+
 Implementation of the proposed uPMnet. For the preprint, please refer to [[Arxiv]](https://arxiv.org/pdf/2111.05170v1.pdf).
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/exploiting-robust-unsupervised-video-person/unsupervised-person-re-identification-on-9)](https://paperswithcode.com/sota/unsupervised-person-re-identification-on-9?p=exploiting-robust-unsupervised-video-person)
