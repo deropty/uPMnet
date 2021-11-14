@@ -15,9 +15,6 @@ Implementation of the proposed uPMnet. For the preprint, please refer to [[Arxiv
 
 ## Getting Started
 ### Requirements
-- Python==2.7
-- tensorflow==1.4.0
-
 Here is a brief instruction for installing the experimental environment.
 ```
 # install virtual envs
