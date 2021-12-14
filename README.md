@@ -72,10 +72,12 @@ If you find this project useful for your research, please kindly cite:
 
 ```
 @article{zang2021exploiting,
-  title={Exploiting Robust Unsupervised Video Person Re-identification},
-  author={Zang, Xianghao and Li, Ge and Gao, Wei and Shu, Xiujun},
-  journal={arXiv preprint arXiv:2111.05170},
-  year={2021}
+	author  = {Xianghao Zang and Ge Li and Wei Gao and Xiujun Shu},
+	title = {Exploiting robust unsupervised video person re‐identification},
+	journal = {IET Image Processing},
+	year = {2021},
+	month = {11},
+	doi = {10.1049/ipr2.12380}
 }
 ```
 
