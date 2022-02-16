@@ -75,8 +75,10 @@ If you find this project useful for your research, please kindly cite:
 	author  = {Xianghao Zang and Ge Li and Wei Gao and Xiujun Shu},
 	title = {Exploiting robust unsupervised video person re‐identification},
 	journal = {IET Image Processing},
-	year = {2021},
-	month = {11},
+	volume = {16},
+	number = {3},
+	pages = {729-741},
+	year = {2022},
 	doi = {10.1049/ipr2.12380}
 }
 ```
